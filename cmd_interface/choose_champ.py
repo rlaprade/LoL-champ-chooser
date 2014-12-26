@@ -8,12 +8,16 @@ role_dict = {"top": top, "jungle": jungle, "mid": mid, "adc": adc, "ad": adc, "s
 roles = ["top", "jungle", "mid", "adc", "support"]
 
 def choose_champ(role):
+    """Returns a randomly chosen champion from the given
+    role's champion pool.
+    """
     champ = choice(role)
     # if champ == "Jayce" and choice((0,1)):
         # champ = choice(role)
     return champ
 
 def choose_role():
+    """Return a random role"""
     return choice(roles)
     
 def main(argv):
