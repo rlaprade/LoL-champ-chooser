@@ -1,0 +1,1 @@
+Just run the choose_champ.py script from this directory. (If in a command line, python choose_champ.py)  You will be prompted to input a role.  Type the desired role and hit enter.  The champion pools for each role can be chosen in the champs.py in the parent diretory.
